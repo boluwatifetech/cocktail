@@ -1,0 +1,356 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:black;
+    color:white;
+    overflow-x:hidden;
+}
+
+
+
+
+.cover-nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 100px;
+  
+
+    background:white;
+    color:black;
+    margin-bottom: 100px;
+}
+
+.cover-nav h2{
+    font-size:20px;
+    text-transform:capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cover-nav span{
+    color:rgb(50, 119, 119);
+    font-family:cursive;
+}
+.found h2{
+color:black;
+}
+
+.input-container{
+    text-align:center;
+    background:white;
+    padding:15px 20px;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items:center;
+   max-width:100%;
+width:350px;
+   transition:all 1s ease;
+   margin:auto;
+border-radius:10px;
+}
+
+.input-container:hover{
+box-shadow: 2px 3px 3px 3px aqua;
+    transform: skew(0.9deg);
+}
+.input-container input{
+    width:350px;
+    height:30px;
+    border-radius:5px;
+    transition:all 1s ease;
+    background:aqua;
+    outline:none;
+    border:none;
+padding-left:4px;
+
+font-size:17px;
+}
+
+.input-container input:hover{
+background:rgb(38, 151, 151);
+}
+.input-container input:focus{
+background:aqua;
+border-top:5px solid aqua;
+border-bottom:5px solid aqua;
+border-left:5px solid rgb(38, 151, 151);
+border-right: 5px solid rgb(38, 151, 151);
+
+}
+.input-container label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:19px;
+    text-transform:capitalize;
+  color:black;
+}
+
+.grid-cock{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    place-items:center;
+    align-items:center;
+    justify-content:center;
+    margin-top:80px;
+}
+
+.image{
+    width:100%;
+    height:100%;
+
+}
+.image img{
+    width:300px;
+    height:200px;
+    border-radius:5px;
+}
+.about h2{
+    line-height:29px;
+    word-spacing:1px;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+.about p{
+    line-height: 29px;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+}
+
+
+
+
+.main-nav .each-nav {
+    color:black;
+border-radius:3px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration:none;
+    transition:all 1s ease;
+    cursor:pointer;
+    background:aqua;
+    padding:7px 10px;
+font-size:17px;
+margin-right:8px;
+
+}
+
+.main-nav .each-nav:hover{
+border-top:2px solid  aqua;
+background:transparent;
+color:black;
+border-bottom: 2px solid aqua;
+}
+.about {
+    text-align: center;
+width: 600px;
+margin:auto;
+transform: translatey(100px);
+    background: aqua;
+    color: black;
+    padding: 25px 35px;
+    border-radius: 5px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    transition: all 1s ease;
+}
+.cover-cocktails{
+    background:white;
+    padding:15px 20px;
+    border-radius:5px;
+  margin-bottom:20px;
+    color:white;
+    max-width:100%;
+    width:300px;
+    transition:all 1s ease;
+}
+
+.cover-cocktails:hover{
+    box-shadow:2px 3px 3px 3px aqua;
+    transform:skew(1.0deg);
+}
+
+.about h2{
+    margin-bottom:30px;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.about p{
+    font-family:Arial, Helvetica, sans-serif;
+   
+    word-spacing:1px;
+    letter-spacing:1px;
+}
+.about:hover{
+background:transparent;
+color:white;
+}
+
+.btn{
+   
+    color: black;
+        border-radius: 3px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        transition: all 1s ease;
+        cursor: pointer;
+        background: white;
+        padding: 10px 12px;
+        font-size: 17px;
+        border:none;
+        outline:none;
+}
+.content-cock .cock-link{
+    text-decoration:none;
+}
+.btn:hover{
+    border-top: 2px solid aqua;
+        background: transparent;
+        color: white;
+        border-bottom: 2px solid aqua;
+}
+.content-cock h2{
+    color:black;
+    margin-bottom: 10px;
+}
+.content-cock p{
+color: black;
+margin-bottom: 5px;
+}
+.content-cock h3{
+    color: black;
+    font-size: 18px;
+    margin-bottom:5px;
+}
+.content-cock h1{
+color: black;
+font-size:19px;
+margin:5px 0px;
+}
+
+.content-cock button{
+    padding:7px 10px;
+    outline:none;
+    background:aqua;
+    outline:none;
+    border-radius:3px;
+    font-size:17px;
+    color:black;
+    border:none;
+    margin-top:10px;
+    transition:all 1s ease;
+    cursor:pointer;
+}
+.content-cock button:hover{
+background:black;
+color:white;
+}
+
+.load{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:80vh;
+    font-size:35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    color:aqua;
+    text-shadow:3px 3px 3px  aqua;
+
+}
+@media(max-width:1000px){
+    
+    .input-container{
+        padding: 5px 10px;
+       width:300px;
+        flex-direction:column;
+    }
+    .input-container label {
+           
+            font-size: 17px;
+           
+    
+        }
+
+    .grid-cock {
+            grid-template-columns: 1fr 1fr;
+        }
+                .input-container input{
+                    width: 200px;
+                        height: 25px;
+                }
+                .cover-cocktails {
+                   
+                    width:250px;
+                 
+                }
+                                .image img {
+                                    width: 250px;
+                                    height: 180px;
+                                    border-radius: 5px;
+                                }
+                                .input-container{
+                                    margin-right: 45px;
+                                }
+}
+@media(max-width:600px){
+    .input-container{
+        padding: 4px 7px;
+        flex-direction:column;
+       width:260px;
+    }
+    .input-container label {
+          font-size:14px;
+            
+           
+   
+        }
+    .input-container input {
+            width: 200px;
+            height: 30px;
+            margin-top:15px;
+        }
+    .cover-nav ul li{
+        display:block;
+
+    }
+         .image img {
+             width: 265px;
+             height: 200px;
+             border-radius: 5px;
+         }
+
+        .cover-cocktails {
+           
+            width: 265px;
+           
+        }
+        .grid-cock{
+            grid-template-columns:1fr;
+        }
+   
+    .cover-nav h2{
+        font-size:15px;
+    }
+    .main-nav.show-nav{
+      z-index:999;
+        background: aqua;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 100vh;
+            color: white;
+            visibility: visible;
+           
+    }
+    .cover-nav{
+        padding:15px 40px;
+    }
+
+    .btn{
+        display:block;
+    }
+}
